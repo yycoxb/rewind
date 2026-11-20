@@ -1,5 +1,5 @@
 [2026-11-20T12:17:13] 20261120T041713Z-t30-615779 ===== run started =====
-[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 workspace ready: isolated git worktree /Users/a1/Documents/deepseek-harness/default-workspace/rewind/.rewind/tasks/t30/worktree (seed tree e6c057fe5e0faf0265bd6163a7fc83876fc687a7); user tree/index untouched
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 workspace ready: isolated git worktree $REPO/.rewind/tasks/t30/worktree (seed tree e6c057fe5e0faf0265bd6163a7fc83876fc687a7); user tree/index untouched
 [2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 001: intent t30:step:0001 persisted before side effects
 [2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 001: applied scripted change(s) ['src/mod_00.py']
 [2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 001: checkpoint tree=58c3359212b11b49b3e9b876b6538672ca161b09 ref=refs/rewind/t30/0001 status=RESUMED

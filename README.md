@@ -45,7 +45,8 @@ REWIND_TEST_PAUSE_AT=5 python3 -m rewind run --task kill5
 
 ## What the measured runs show
 
-These numbers are copied from actual output of this repository, not estimated.
+These numbers are copied from actual output of this repository, not estimated;
+wall-clock timings vary slightly between machines and runs.
 
 | Check | Actual result |
 |---|---|
@@ -72,6 +73,10 @@ SUMMARY
 
 The conflict ref and task id above are from that particular demo run; running
 `bash demo.sh` creates fresh random task ids and prints its own refs.
+
+In the retained artifacts, the absolute host path of this checkout is replaced
+by `$REPO` so the logs carry no machine-specific paths.  No other field in the
+retained run was edited.
 
 ## Repository layout
 
