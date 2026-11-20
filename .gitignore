@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.rewind/
+runs/*
+!runs/20261120T041216Z-t30-31049d/
+!runs/20261120T041216Z-t30-31049d/**
