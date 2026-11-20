@@ -5,3 +5,5 @@ __pycache__/
 runs/*
 !runs/20261120T041713Z-t30-615779/
 !runs/20261120T041713Z-t30-615779/**
+!runs/20261120T053536Z-crash25-ca99cb/
+!runs/20261120T053536Z-crash25-ca99cb/**

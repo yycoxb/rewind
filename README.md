@@ -60,6 +60,11 @@ wall-clock timings vary slightly between machines and runs.
 | Retained final patch | `final.diff` = **450 lines** |
 | Task refs after clean run | 50 `refs/rewind/t30/0001..0050` plus `refs/heads/main` |
 | Demo | **exit 0**, summary `20/20`, elapsed `78.47s` |
+| Committed crash+resume run | `runs/20261120T053536Z-crash25-ca99cb/` — `SIGKILL` at step 25, resumed to 50/50; final tree `e41dd5c2...` is identical to the clean run's final tree |
+
+Two runs are committed so the evidence can be checked without trusting prose:
+the clean `t30` run, and `crash25`, which was really killed at step 25 and then
+resumed.  Both are `journal.jsonl` + `trace.txt` + `report.md` + `final.diff`.
 
 The demo's measured summary was:
 
