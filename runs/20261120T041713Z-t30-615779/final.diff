@@ -1,0 +1,450 @@
+diff --git a/src/mod_00.py b/src/mod_00.py
+index 5e05e6f0a201aa6fa55298bb96a6d8bb4b7badb5..0f1f0a9f9f58da8b62b8fe51437ef2503622c8c6 100644
+--- a/src/mod_00.py
++++ b/src/mod_00.py
+@@ -1,7 +1,7 @@
+-"""Module 00 (seed)."""
++"""Module 00 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_00"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-00-00", "r2-00-01", "r2-00-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_01.py b/src/mod_01.py
+index 8e25c69ca269e25bd7e9a0961503d5a3153b2926..149689833b42c021e9852e11e259813742e3c918 100644
+--- a/src/mod_01.py
++++ b/src/mod_01.py
+@@ -1,7 +1,7 @@
+-"""Module 01 (seed)."""
++"""Module 01 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_01"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-01-00", "r2-01-01", "r2-01-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_02.py b/src/mod_02.py
+index 8ef296ac6161453a134a0c5682025f646979e2d0..98505794a877892e3b4d34ab60201ac284285e90 100644
+--- a/src/mod_02.py
++++ b/src/mod_02.py
+@@ -1,7 +1,7 @@
+-"""Module 02 (seed)."""
++"""Module 02 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_02"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-02-00", "r2-02-01", "r2-02-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_03.py b/src/mod_03.py
+index e6b94476a597750b15a1a8092d476326873e0b21..4da125e6beeef67ae880437e885d11ab56b0eea8 100644
+--- a/src/mod_03.py
++++ b/src/mod_03.py
+@@ -1,7 +1,7 @@
+-"""Module 03 (seed)."""
++"""Module 03 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_03"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-03-00", "r2-03-01", "r2-03-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_04.py b/src/mod_04.py
+index c7ee200460bdadc592dcdd24e9787ad381d60271..402655e8d37c655eb657d8b7117a17dcf86081a8 100644
+--- a/src/mod_04.py
++++ b/src/mod_04.py
+@@ -1,7 +1,7 @@
+-"""Module 04 (seed)."""
++"""Module 04 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_04"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-04-00", "r2-04-01", "r2-04-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_05.py b/src/mod_05.py
+index cd035c9512cc18264eca7fb56fd9fd5937f67d5f..512c2920ff7fe19e673e91185b65037fe6837c40 100644
+--- a/src/mod_05.py
++++ b/src/mod_05.py
+@@ -1,7 +1,7 @@
+-"""Module 05 (seed)."""
++"""Module 05 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_05"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-05-00", "r2-05-01", "r2-05-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_06.py b/src/mod_06.py
+index c0ef84dcc6fb6e6172ecd0bf69d2b8abdce75b12..ea2f26627f450c81356bd0f9ceeb66608d550dea 100644
+--- a/src/mod_06.py
++++ b/src/mod_06.py
+@@ -1,7 +1,7 @@
+-"""Module 06 (seed)."""
++"""Module 06 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_06"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-06-00", "r2-06-01", "r2-06-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_07.py b/src/mod_07.py
+index 04e1776f54ab00a9875b490535bcb5f3d8c61643..cc7257d3eda61c2439df21992145df80b8765d86 100644
+--- a/src/mod_07.py
++++ b/src/mod_07.py
+@@ -1,7 +1,7 @@
+-"""Module 07 (seed)."""
++"""Module 07 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_07"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-07-00", "r2-07-01", "r2-07-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_08.py b/src/mod_08.py
+index a24b5d46557aebec0e1aa84be892144b8a433b5b..58597f1c85c9ecc8787512c3e976d608df1b6ec4 100644
+--- a/src/mod_08.py
++++ b/src/mod_08.py
+@@ -1,7 +1,7 @@
+-"""Module 08 (seed)."""
++"""Module 08 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_08"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-08-00", "r2-08-01", "r2-08-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_09.py b/src/mod_09.py
+index 541f12282853a09fe712666e60a9a5afc39fda21..ae5cba213c13502c6e0bfc0e8a3fb155a65b5df7 100644
+--- a/src/mod_09.py
++++ b/src/mod_09.py
+@@ -1,7 +1,7 @@
+-"""Module 09 (seed)."""
++"""Module 09 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_09"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-09-00", "r2-09-01", "r2-09-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_10.py b/src/mod_10.py
+index 581e842fb94f345ed42f2fe06544a47048d07619..62b9296773c0957f39df271005adba3628da33ee 100644
+--- a/src/mod_10.py
++++ b/src/mod_10.py
+@@ -1,7 +1,7 @@
+-"""Module 10 (seed)."""
++"""Module 10 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_10"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-10-00", "r2-10-01", "r2-10-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_11.py b/src/mod_11.py
+index 542c6a6771ad3506007c2046bab151650d9ef1a5..ebdb2ccba87ff0d2d182517c77b544cd50ab5184 100644
+--- a/src/mod_11.py
++++ b/src/mod_11.py
+@@ -1,7 +1,7 @@
+-"""Module 11 (seed)."""
++"""Module 11 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_11"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-11-00", "r2-11-01", "r2-11-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_12.py b/src/mod_12.py
+index 2b8a8fbf614421265ded5c4cff8f2eae9c12aefc..e798817847ee772b92e6803f544c70ab23410264 100644
+--- a/src/mod_12.py
++++ b/src/mod_12.py
+@@ -1,7 +1,7 @@
+-"""Module 12 (seed)."""
++"""Module 12 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_12"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-12-00", "r2-12-01", "r2-12-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_13.py b/src/mod_13.py
+index 5fe825458daaf730aa0d0361c7837ce8b42fc172..9a239d17624efd27f89e6c0d5781e24e4ad0f33d 100644
+--- a/src/mod_13.py
++++ b/src/mod_13.py
+@@ -1,7 +1,7 @@
+-"""Module 13 (seed)."""
++"""Module 13 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_13"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-13-00", "r2-13-01", "r2-13-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_14.py b/src/mod_14.py
+index 14eeed1c4b0e449bd014a217f25670249abcbff1..46f5d111dfa175e295b1314286d553f31ce773ff 100644
+--- a/src/mod_14.py
++++ b/src/mod_14.py
+@@ -1,7 +1,7 @@
+-"""Module 14 (seed)."""
++"""Module 14 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_14"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-14-00", "r2-14-01", "r2-14-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_15.py b/src/mod_15.py
+index ba09327daf9c74b299704ef959afdc595826ce2d..08a4af84450c9aeca4f026c86eeb741a5ea638e8 100644
+--- a/src/mod_15.py
++++ b/src/mod_15.py
+@@ -1,7 +1,7 @@
+-"""Module 15 (seed)."""
++"""Module 15 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_15"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-15-00", "r2-15-01", "r2-15-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_16.py b/src/mod_16.py
+index 0cf32e4f2220fab3a3b31330780a2e97517e6e1f..0144d2650335f8ac73997810e7eea942725267a9 100644
+--- a/src/mod_16.py
++++ b/src/mod_16.py
+@@ -1,7 +1,7 @@
+-"""Module 16 (seed)."""
++"""Module 16 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_16"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-16-00", "r2-16-01", "r2-16-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_17.py b/src/mod_17.py
+index 3b02275001298faf3d5aaa4f9e736df8e62f63c2..4c2961fc600f1c4bf123d61eff2a51b9a7aaba4e 100644
+--- a/src/mod_17.py
++++ b/src/mod_17.py
+@@ -1,7 +1,7 @@
+-"""Module 17 (seed)."""
++"""Module 17 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_17"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-17-00", "r2-17-01", "r2-17-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_18.py b/src/mod_18.py
+index dc8f367898fd4110aa667eea81f031cd0e7f1bd6..09af244e96c7dc1ca0cb2a57d644b1a03e43416d 100644
+--- a/src/mod_18.py
++++ b/src/mod_18.py
+@@ -1,7 +1,7 @@
+-"""Module 18 (seed)."""
++"""Module 18 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_18"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-18-00", "r2-18-01", "r2-18-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_19.py b/src/mod_19.py
+index f87cb8e5c4c10b1c41414017e7d5d197e30dd418..855685d2551174b7133a1391c953363bc8e06b25 100644
+--- a/src/mod_19.py
++++ b/src/mod_19.py
+@@ -1,7 +1,7 @@
+-"""Module 19 (seed)."""
++"""Module 19 -- rewritten by the scripted agent, r2."""
+ MODULE = "mod_19"
+-REVISION = 0
+-TOKENS = []
++REVISION = 2
++TOKENS = ["r2-19-00", "r2-19-01", "r2-19-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_20.py b/src/mod_20.py
+index 72e9ae57b0e0cdee893e1f9e9a040a096fff1ffb..7d812d79d00a8a6b13c4ea128fc573e7986970ab 100644
+--- a/src/mod_20.py
++++ b/src/mod_20.py
+@@ -1,7 +1,7 @@
+-"""Module 20 (seed)."""
++"""Module 20 -- rewritten by the scripted agent, r1."""
+ MODULE = "mod_20"
+-REVISION = 0
+-TOKENS = []
++REVISION = 1
++TOKENS = ["r1-20-00", "r1-20-01", "r1-20-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_21.py b/src/mod_21.py
+index e1fa965d801bb103ecf04f2034940a19825259db..1187ba43a3e3bbb8ee623a6075c2d5be642add98 100644
+--- a/src/mod_21.py
++++ b/src/mod_21.py
+@@ -1,7 +1,7 @@
+-"""Module 21 (seed)."""
++"""Module 21 -- rewritten by the scripted agent, r1."""
+ MODULE = "mod_21"
+-REVISION = 0
+-TOKENS = []
++REVISION = 1
++TOKENS = ["r1-21-00", "r1-21-01", "r1-21-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_22.py b/src/mod_22.py
+index 7c941a92c3b52187316e49f52ad309a21c781c49..f60a8a1331da4f09e5094fd26b99c5cb9904a7b7 100644
+--- a/src/mod_22.py
++++ b/src/mod_22.py
+@@ -1,7 +1,7 @@
+-"""Module 22 (seed)."""
++"""Module 22 -- rewritten by the scripted agent, r1."""
+ MODULE = "mod_22"
+-REVISION = 0
+-TOKENS = []
++REVISION = 1
++TOKENS = ["r1-22-00", "r1-22-01", "r1-22-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_23.py b/src/mod_23.py
+index 4af1c9b2d98a0490895359b239a780eb09e60b2e..f40bd26d0415250a993aa6b8008551eb76e03594 100644
+--- a/src/mod_23.py
++++ b/src/mod_23.py
+@@ -1,7 +1,7 @@
+-"""Module 23 (seed)."""
++"""Module 23 -- rewritten by the scripted agent, r1."""
+ MODULE = "mod_23"
+-REVISION = 0
+-TOKENS = []
++REVISION = 1
++TOKENS = ["r1-23-00", "r1-23-01", "r1-23-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_24.py b/src/mod_24.py
+index 92fafd259147e6756c7300d81ea3b3df1ff5a3a8..67f37d53e071eb84201ad428ff9397018dd16b24 100644
+--- a/src/mod_24.py
++++ b/src/mod_24.py
+@@ -1,7 +1,7 @@
+-"""Module 24 (seed)."""
++"""Module 24 -- rewritten by the scripted agent, r1."""
+ MODULE = "mod_24"
+-REVISION = 0
+-TOKENS = []
++REVISION = 1
++TOKENS = ["r1-24-00", "r1-24-01", "r1-24-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_25.py b/src/mod_25.py
+index 600e4e94b5287611e492f9c61d7e2a547436b703..d747b9b8719821d381a5c62ab1a514b8cbb9ac31 100644
+--- a/src/mod_25.py
++++ b/src/mod_25.py
+@@ -1,7 +1,7 @@
+-"""Module 25 (seed)."""
++"""Module 25 -- rewritten by the scripted agent, r1."""
+ MODULE = "mod_25"
+-REVISION = 0
+-TOKENS = []
++REVISION = 1
++TOKENS = ["r1-25-00", "r1-25-01", "r1-25-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_26.py b/src/mod_26.py
+index a4ba5d4e3d095e3f1abd87eff3aa359339241ff8..959c89cd13d75e7389f8eb9a635a405d774c5483 100644
+--- a/src/mod_26.py
++++ b/src/mod_26.py
+@@ -1,7 +1,7 @@
+-"""Module 26 (seed)."""
++"""Module 26 -- rewritten by the scripted agent, r1."""
+ MODULE = "mod_26"
+-REVISION = 0
+-TOKENS = []
++REVISION = 1
++TOKENS = ["r1-26-00", "r1-26-01", "r1-26-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_27.py b/src/mod_27.py
+index 84227c16d6071b65cb0c13dc990a55b808e01170..03775f3c5ab042e84a6e157108b865b86ea7ddb4 100644
+--- a/src/mod_27.py
++++ b/src/mod_27.py
+@@ -1,7 +1,7 @@
+-"""Module 27 (seed)."""
++"""Module 27 -- rewritten by the scripted agent, r1."""
+ MODULE = "mod_27"
+-REVISION = 0
+-TOKENS = []
++REVISION = 1
++TOKENS = ["r1-27-00", "r1-27-01", "r1-27-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_28.py b/src/mod_28.py
+index f3c153ec5b039ab79b104bd5ac6e1f719571dc68..e8afe333fe035ebd4da80311638ffae471a124f5 100644
+--- a/src/mod_28.py
++++ b/src/mod_28.py
+@@ -1,7 +1,7 @@
+-"""Module 28 (seed)."""
++"""Module 28 -- rewritten by the scripted agent, r1."""
+ MODULE = "mod_28"
+-REVISION = 0
+-TOKENS = []
++REVISION = 1
++TOKENS = ["r1-28-00", "r1-28-01", "r1-28-02"]
+ 
+ 
+ def describe():
+diff --git a/src/mod_29.py b/src/mod_29.py
+index 3d4bfab20d08c64da5380ffcc51d6f295712aead..83bed40b37c9756a79a7adf8e67297c0e8e061f5 100644
+--- a/src/mod_29.py
++++ b/src/mod_29.py
+@@ -1,7 +1,7 @@
+-"""Module 29 (seed)."""
++"""Module 29 -- rewritten by the scripted agent, r1."""
+ MODULE = "mod_29"
+-REVISION = 0
+-TOKENS = []
++REVISION = 1
++TOKENS = ["r1-29-00", "r1-29-01", "r1-29-02"]
+ 
+ 
+ def describe():

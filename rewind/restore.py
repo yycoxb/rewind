@@ -165,7 +165,13 @@ def restore_workspace(
         hb = _oid(base_entries, path)
         ha = _oid(agent_entries, path)
         hc = _oid(current_entries, path)
-        if ha != hb and hc != hb and ha is not None and hc is not None:
+        if (
+            ha != hb
+            and hc != hb
+            and ha is not None
+            and hc is not None
+            and hb is not None
+        ):
             merge_candidates.append(path)
 
     base_dir: Path | None = None
@@ -226,7 +232,23 @@ def restore_workspace(
                 restored[path] = current_content
                 continue
 
-            assert base_content is not None
+            if base_content is None:
+                # Both sides independently created the same path with
+                # different bytes.  There is no three-way base to merge.
+                conflicts.append(
+                    Conflict(
+                        path=path,
+                        base_oid=hb,
+                        agent_oid=ha,
+                        current_oid=hc,
+                        agent_content=agent_content,
+                        current_content=current_content,
+                        diff=_diff(current_content, agent_content, path),
+                        reason="both sides created the file with different content",
+                    )
+                )
+                restored[path] = current_content
+                continue
             assert base_dir is not None
             clean, merged = _merge_file(
                 repo,

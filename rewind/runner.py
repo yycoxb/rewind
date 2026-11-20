@@ -205,6 +205,13 @@ class Runner:
         base_tree = self.state["current_tree"]
         base_commit = self.state["current_commit"]
         in_doubt = recovery and not self.journal.has_result(idem_key)
+        base_entries = gitops.read_tree(self.workspace.repo, base_tree)
+        creates = sorted(
+            path
+            for path, content in changes.items()
+            if content is not None and path not in base_entries
+        )
+        deletes = sorted(path for path, content in changes.items() if content is None)
 
         if not self.journal.has_intent(idem_key):
             self.journal.append(
@@ -214,6 +221,8 @@ class Runner:
                 idem_key=idem_key,
                 step=step,
                 paths=sorted(changes),
+                creates=creates,
+                deletes=deletes,
                 note="class-A deterministic file write; idempotent replay",
             )
             self.artifacts.trace(
@@ -225,7 +234,6 @@ class Runner:
                 + (" (in-doubt: no result)" if in_doubt else "")
             )
 
-        base_entries = gitops.read_tree(self.workspace.repo, base_tree)
         live = gitops.worktree_fingerprint(self.workspace.worktree)
         clean = live == base_entries
 
@@ -328,6 +336,8 @@ class Runner:
             step=step,
             phase="applied",
             paths=effect_paths,
+            creates=creates,
+            deletes=deletes,
             tree=tree,
         )
         self.journal.append(
@@ -340,6 +350,8 @@ class Runner:
             tree=tree,
             commit=commit,
             ref=ref,
+            creates=creates,
+            deletes=deletes,
             in_doubt=in_doubt,
             resolved_in_doubt=in_doubt,
         )

@@ -63,6 +63,9 @@ def _write_effect_report(
     lines += ["```", ""]
     text = "\n".join(lines)
     artifacts_mod.atomic_write(artifacts.report_path, text)
+    # A class-C effect task has no file-tree changes; keep the artifact
+    # contract with an explicit empty diff rather than fabricating changes.
+    artifacts_mod.atomic_write(artifacts.diff_path, "")
     return text
 
 

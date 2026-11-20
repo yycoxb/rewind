@@ -1,0 +1,153 @@
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 ===== run started =====
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 workspace ready: isolated git worktree /Users/a1/Documents/deepseek-harness/default-workspace/rewind/.rewind/tasks/t30/worktree (seed tree e6c057fe5e0faf0265bd6163a7fc83876fc687a7); user tree/index untouched
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 001: intent t30:step:0001 persisted before side effects
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 001: applied scripted change(s) ['src/mod_00.py']
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 001: checkpoint tree=58c3359212b11b49b3e9b876b6538672ca161b09 ref=refs/rewind/t30/0001 status=RESUMED
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 002: intent t30:step:0002 persisted before side effects
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 002: applied scripted change(s) ['src/mod_01.py']
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 002: checkpoint tree=c0499586403a49de442893ac6c50eab8dcd1a929 ref=refs/rewind/t30/0002 status=RESUMED
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 003: intent t30:step:0003 persisted before side effects
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 003: applied scripted change(s) ['src/mod_02.py']
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 003: checkpoint tree=d66535efc978c08a6de42081d5fe95350da1c232 ref=refs/rewind/t30/0003 status=RESUMED
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 004: intent t30:step:0004 persisted before side effects
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 004: applied scripted change(s) ['src/mod_03.py']
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 004: checkpoint tree=299c6a15b5bb7f20e42aa57623fba11d398a1e41 ref=refs/rewind/t30/0004 status=RESUMED
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 005: intent t30:step:0005 persisted before side effects
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 005: applied scripted change(s) ['src/mod_04.py']
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 005: checkpoint tree=8f0244525bb8f2cf5e5191abb585d93eb85ef302 ref=refs/rewind/t30/0005 status=RESUMED
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 006: intent t30:step:0006 persisted before side effects
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 006: applied scripted change(s) ['src/mod_05.py']
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 006: checkpoint tree=a612e51a5154b452eb7b81a88f6cfc1c754b2614 ref=refs/rewind/t30/0006 status=RESUMED
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 007: intent t30:step:0007 persisted before side effects
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 007: applied scripted change(s) ['src/mod_06.py']
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 007: checkpoint tree=483629524f91b24a4e79eca1b7a8698331f58fc7 ref=refs/rewind/t30/0007 status=RESUMED
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 008: intent t30:step:0008 persisted before side effects
+[2026-11-20T12:17:13] 20261120T041713Z-t30-615779 step 008: applied scripted change(s) ['src/mod_07.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 008: checkpoint tree=cfacda94ff8381b37996d01d494c83818b75fc87 ref=refs/rewind/t30/0008 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 009: intent t30:step:0009 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 009: applied scripted change(s) ['src/mod_08.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 009: checkpoint tree=4623ece30a41fd140a8dabc2f571bd544b634fa1 ref=refs/rewind/t30/0009 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 010: intent t30:step:0010 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 010: applied scripted change(s) ['src/mod_09.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 010: checkpoint tree=cfbeafa6fc3721c689cb28a77379d33c1e6b8300 ref=refs/rewind/t30/0010 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 011: intent t30:step:0011 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 011: applied scripted change(s) ['src/mod_10.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 011: checkpoint tree=7426fbcb550e715b8d3fe09231cd29957a6fe32b ref=refs/rewind/t30/0011 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 012: intent t30:step:0012 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 012: applied scripted change(s) ['src/mod_11.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 012: checkpoint tree=46fa088b94e68231d4ab9ec0c3048324c059f389 ref=refs/rewind/t30/0012 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 013: intent t30:step:0013 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 013: applied scripted change(s) ['src/mod_12.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 013: checkpoint tree=f28d68ea2693b07105d6335415687ad1b4f47c56 ref=refs/rewind/t30/0013 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 014: intent t30:step:0014 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 014: applied scripted change(s) ['src/mod_13.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 014: checkpoint tree=637fc31bc71f34b3e2edec0d2023b82063b53e9c ref=refs/rewind/t30/0014 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 015: intent t30:step:0015 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 015: applied scripted change(s) ['src/mod_14.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 015: checkpoint tree=639d89e77a41c762557573e36886bf694d09421f ref=refs/rewind/t30/0015 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 016: intent t30:step:0016 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 016: applied scripted change(s) ['src/mod_15.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 016: checkpoint tree=a459a4914070ee98e916c2c40df587d12cab6403 ref=refs/rewind/t30/0016 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 017: intent t30:step:0017 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 017: applied scripted change(s) ['src/mod_16.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 017: checkpoint tree=4f4038a070c868e41b0937d37b5a3c9704e42dff ref=refs/rewind/t30/0017 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 018: intent t30:step:0018 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 018: applied scripted change(s) ['src/mod_17.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 018: checkpoint tree=f4e55927fd97380b7686c30fff3e42655d74f761 ref=refs/rewind/t30/0018 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 019: intent t30:step:0019 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 019: applied scripted change(s) ['src/mod_18.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 019: checkpoint tree=dc01535fd2a58386d4999d8da86c3a6d8548f866 ref=refs/rewind/t30/0019 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 020: intent t30:step:0020 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 020: applied scripted change(s) ['src/mod_19.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 020: checkpoint tree=7e633c3374fb01f1113b11b0cae1d5b030129431 ref=refs/rewind/t30/0020 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 021: intent t30:step:0021 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 021: applied scripted change(s) ['src/mod_20.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 021: checkpoint tree=b9ed572713d6aa0bbaa8f16370a59704771100bd ref=refs/rewind/t30/0021 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 022: intent t30:step:0022 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 022: applied scripted change(s) ['src/mod_21.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 022: checkpoint tree=aa0b0d046ae162a7cdcf134446518a8e054d9dbe ref=refs/rewind/t30/0022 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 023: intent t30:step:0023 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 023: applied scripted change(s) ['src/mod_22.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 023: checkpoint tree=8f1d8743e16b23a9a363ed8e7cadae838b2ca804 ref=refs/rewind/t30/0023 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 024: intent t30:step:0024 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 024: applied scripted change(s) ['src/mod_23.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 024: checkpoint tree=109f5777ebcaf65471f1ecb3059a3ca76d60e007 ref=refs/rewind/t30/0024 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 025: intent t30:step:0025 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 025: applied scripted change(s) ['src/mod_24.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 025: checkpoint tree=489e43ca99bfafe33b5950dcf919cbf578302ccc ref=refs/rewind/t30/0025 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 026: intent t30:step:0026 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 026: applied scripted change(s) ['src/mod_25.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 026: checkpoint tree=722df476f61fd7555721c744ef19d56e85082d51 ref=refs/rewind/t30/0026 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 027: intent t30:step:0027 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 027: applied scripted change(s) ['src/mod_26.py']
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 027: checkpoint tree=3d4e22c88422594c30c229b8b34f55880806063c ref=refs/rewind/t30/0027 status=RESUMED
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 028: intent t30:step:0028 persisted before side effects
+[2026-11-20T12:17:14] 20261120T041713Z-t30-615779 step 028: applied scripted change(s) ['src/mod_27.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 028: checkpoint tree=6179f53f00cdb9fa79f232df6cfec4357373db31 ref=refs/rewind/t30/0028 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 029: intent t30:step:0029 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 029: applied scripted change(s) ['src/mod_28.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 029: checkpoint tree=da3b06a7952afdd9375b8473df2d3df09d4e4933 ref=refs/rewind/t30/0029 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 030: intent t30:step:0030 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 030: applied scripted change(s) ['src/mod_29.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 030: checkpoint tree=cc722cc920c2cd642d24c73ed685f28e62548ff7 ref=refs/rewind/t30/0030 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 031: intent t30:step:0031 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 031: applied scripted change(s) ['src/mod_00.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 031: checkpoint tree=191ac598b5f4fefe38b8009f150dcbd23fc86652 ref=refs/rewind/t30/0031 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 032: intent t30:step:0032 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 032: applied scripted change(s) ['src/mod_01.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 032: checkpoint tree=6cee1efd2706551bcd83b45da6ccf8068bd66ee9 ref=refs/rewind/t30/0032 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 033: intent t30:step:0033 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 033: applied scripted change(s) ['src/mod_02.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 033: checkpoint tree=4dde0f32acb9bbab5cb87ea029e378d55f2e890d ref=refs/rewind/t30/0033 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 034: intent t30:step:0034 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 034: applied scripted change(s) ['src/mod_03.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 034: checkpoint tree=29f893aea98c197b10a4a42dad6ae2856751dd3c ref=refs/rewind/t30/0034 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 035: intent t30:step:0035 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 035: applied scripted change(s) ['src/mod_04.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 035: checkpoint tree=9bf6c721638ef48e93f1e03e43fee2aa6c6a1133 ref=refs/rewind/t30/0035 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 036: intent t30:step:0036 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 036: applied scripted change(s) ['src/mod_05.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 036: checkpoint tree=9c93d674584b3366c4c72f063e183f09651f6d8f ref=refs/rewind/t30/0036 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 037: intent t30:step:0037 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 037: applied scripted change(s) ['src/mod_06.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 037: checkpoint tree=25b7f4809c3c8d2e693e2b6f954cba08550533a7 ref=refs/rewind/t30/0037 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 038: intent t30:step:0038 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 038: applied scripted change(s) ['src/mod_07.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 038: checkpoint tree=907cf4f32d30d3c15bebd042e90d71ae90c623f5 ref=refs/rewind/t30/0038 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 039: intent t30:step:0039 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 039: applied scripted change(s) ['src/mod_08.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 039: checkpoint tree=ad982bae874d7ab501c65f2c390e4255ce7e1f80 ref=refs/rewind/t30/0039 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 040: intent t30:step:0040 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 040: applied scripted change(s) ['src/mod_09.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 040: checkpoint tree=f9d034201dbd66a80257e913946df7fa0f33c709 ref=refs/rewind/t30/0040 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 041: intent t30:step:0041 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 041: applied scripted change(s) ['src/mod_10.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 041: checkpoint tree=aec1d2df275e3b2db42ebed8a6177bcc9db1e1ef ref=refs/rewind/t30/0041 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 042: intent t30:step:0042 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 042: applied scripted change(s) ['src/mod_11.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 042: checkpoint tree=0b3fd18f5dde54c51904bd64809169c2f60ab60b ref=refs/rewind/t30/0042 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 043: intent t30:step:0043 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 043: applied scripted change(s) ['src/mod_12.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 043: checkpoint tree=8e090299f21e13c872741a623ee857f27ac8adbf ref=refs/rewind/t30/0043 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 044: intent t30:step:0044 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 044: applied scripted change(s) ['src/mod_13.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 044: checkpoint tree=03888160cb117e4041d53aa1e99c5e55348a9ee3 ref=refs/rewind/t30/0044 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 045: intent t30:step:0045 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 045: applied scripted change(s) ['src/mod_14.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 045: checkpoint tree=530e3292b09d14334b4d9e5cc32bc7514586ed84 ref=refs/rewind/t30/0045 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 046: intent t30:step:0046 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 046: applied scripted change(s) ['src/mod_15.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 046: checkpoint tree=f30bcb4249cfdea44815bfd54ef0a6290aab074b ref=refs/rewind/t30/0046 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 047: intent t30:step:0047 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 047: applied scripted change(s) ['src/mod_16.py']
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 047: checkpoint tree=2b753a909058dbb24c296bc8e6aceec8faa187a8 ref=refs/rewind/t30/0047 status=RESUMED
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 048: intent t30:step:0048 persisted before side effects
+[2026-11-20T12:17:15] 20261120T041713Z-t30-615779 step 048: applied scripted change(s) ['src/mod_17.py']
+[2026-11-20T12:17:16] 20261120T041713Z-t30-615779 step 048: checkpoint tree=960e711796cc054f9a62cfca2e16599d6e964268 ref=refs/rewind/t30/0048 status=RESUMED
+[2026-11-20T12:17:16] 20261120T041713Z-t30-615779 step 049: intent t30:step:0049 persisted before side effects
+[2026-11-20T12:17:16] 20261120T041713Z-t30-615779 step 049: applied scripted change(s) ['src/mod_18.py']
+[2026-11-20T12:17:16] 20261120T041713Z-t30-615779 step 049: checkpoint tree=803d243f74a548fd00534b84b95f2e72ccf92fad ref=refs/rewind/t30/0049 status=RESUMED
+[2026-11-20T12:17:16] 20261120T041713Z-t30-615779 step 050: intent t30:step:0050 persisted before side effects
+[2026-11-20T12:17:16] 20261120T041713Z-t30-615779 step 050: applied scripted change(s) ['src/mod_19.py']
+[2026-11-20T12:17:16] 20261120T041713Z-t30-615779 step 050: checkpoint tree=e41dd5c2a3c82470700e8cc5f8a9890ed03c6926 ref=refs/rewind/t30/0050 status=RESUMED
+[2026-11-20T12:17:16] 20261120T041713Z-t30-615779 run finished: status=RESUMED steps=50/50

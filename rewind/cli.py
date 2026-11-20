@@ -75,9 +75,22 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def _report_task(root: Path, task_id: str) -> int:
-    workspace = load_workspace(root, task_id)
-    state = read_state(workspace.state_path)
-    report = Path(state["artifact_dir"]) / "report.md"
+    try:
+        workspace = load_workspace(root, task_id)
+        state = read_state(workspace.state_path)
+        report = Path(state["artifact_dir"]) / "report.md"
+    except WorkspaceError:
+        # A fresh checkout has the retained artifacts but not the ignored
+        # .rewind state.  Fall back to the matching run directory.
+        candidates = sorted(
+            root.joinpath("runs").glob(f"*-{task_id}-*/report.md"),
+            key=lambda p: p.stat().st_mtime,
+            reverse=True,
+        )
+        if not candidates:
+            print(f"task {task_id!r} not found under {root}", file=sys.stderr)
+            return 2
+        report = candidates[0]
     if not report.exists():
         print(f"report not found: {report}", file=sys.stderr)
         return 2
